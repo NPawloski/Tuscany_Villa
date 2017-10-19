@@ -1,2 +1,26 @@
 ﻿body {
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    margin: 0px;
+    padding:0px;
+}
+
+.compName {
+    background-image: url('tuscany-villas-sant-anna.jpg');
+    background-size: 100% 100%;
+    margin-top: 0px;
+    height: 375px;
+    text-align: center;
+    padding:0px;
+}
+
+.sidePic {
+    background-image: url('Versilia.jpg');
+    background-size:cover;
+    margin-top: 0px;
+    height: 375px;
+    padding:0px;
 }
