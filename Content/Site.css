@@ -179,6 +179,11 @@ span {
     border: none;
     padding: .6em;
     color: white;
+    
+}
+#picbtn a:hover{
+    background:none;
+   
 }
 
 #occasion {
