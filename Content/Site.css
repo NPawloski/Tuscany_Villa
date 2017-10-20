@@ -40,9 +40,9 @@
 
 /*location 1 styling*/
 #location1row {
-    width: auto;  
+    width: auto;
     background-color: white;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 #location1 {
@@ -71,17 +71,17 @@
 }
 /*location 2 styling*/
 #location2row {
-    width: auto;    
-    margin-top:10px;
-    margin-bottom:10px;
-    background:none;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: none;
 }
 
 #location2 {
     padding-top: 30px;
     padding-left: 30px;
     text-align: left;
-   margin:auto;
+    margin: auto;
     background-color: #474E5D;
 }
 
@@ -89,8 +89,8 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 40px;
-    padding-right:20px;   
-    margin:auto;
+    padding-right: 20px;
+    margin: auto;
     background-color: #474E5D;
 }
 
@@ -104,9 +104,9 @@
 /*location 3 styling*/
 
 #location3row {
-    width: auto;  
+    width: auto;
     background-color: white;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #location3 {
@@ -135,4 +135,58 @@
     border: none;
 }
 
+/*AMMENITIES*/
 
+#ammenities {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#ammenrow1 {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+#ammenitieshead {
+    background-color: #474E5D;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#receptions {
+    background-image: url('3b-348x348.jpg');
+    background-size: cover;
+    color: white;
+    height: 350px;
+}
+
+#centertext {
+    margin-top: 175px;
+    color: white;
+}
+
+span {
+    background: rgba(100,100,100,0.7);
+}
+
+#picbtn {
+    margin-top: 175px;
+    background-color: rgba(100,100,100,0.8);
+    font-size: 1.8em;
+    border: none;
+    padding: .6em;
+    color: white;
+}
+
+#occasion {
+    height: 350px;
+}
+
+#relax {
+    background-image: url('42-348x348.jpg');
+    background-size: cover;
+    height: 350px;
+}
