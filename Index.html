@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Tuscany Villa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--NAVBAR-->
-    
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -25,7 +25,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">LOCATIONS</a></li>
+                    <li><a href="#Location">LOCATIONS</a></li>
                     <li><a href="#">AMMENITIES</a></li>
                     <li><a href="#">REVIEWS</a></li>
                     <li><a href="#">CONTACT</a></li>
@@ -33,20 +33,62 @@
             </div>
         </div>
     </nav>
-       
+
 
     <!--HEADER-->
+
+
     <div class="header companyname">
-        <div class="row">
-            <div class="col-xs-9 col-sm-9 col-m-9 col-lg-9 compName">
+        <div class="row container-fluid">
+            <div class="col-xs-12 col-sm-12 col-m-9 col-lg-9 compName">
                 <h1>Tuscany Villa</h1>
-                <h3>We Specialize in relaxation</h3>
+                <h4>We Specialize in relaxation</h4>
             </div>
-            <div class="col-xs-3 col-sm-3 col-m-3 col-lg-3 sidePic">               
+            <div class="col-xs-12 col-sm-12 col-m-3 col-lg-3 sidePic">
             </div>
         </div>
     </div>
-    
+
+    <!--LOCATIONS-->
+
+    <div class="locations" id="Location">
+        <div class="row container-fluid" id="locationheader">
+            <h2>LOCATIONS</h2>
+            <h4>Some places for you to go</h4>
+        </div>
+        <div class="row container" id="location1row">
+            <div class="col-xs-12 col-sm-12 col-m-7 col-lg-7" id="location1">
+                <h3>Location #1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis erat eget justo cursus varius ac at arcu. Proin iaculis metus condimentum, tincidunt tellus vitae, tincidunt dui. Etiam eu dui massa. Pellentesque euismod lectus et ligula vestibulum viverra. Morbi ligula nunc, scelerisque quis ultrices ac, rhoncus id enim. Nam sed ex neque. In magna dui, rutrum non sapien vitae, bibendum blandit urna. Suspendisse pulvinar, felis quis vehicula eleifend, turpis nisl maximus quam, non tincidunt odio massa eu odio. Aenean rutrum nunc sem, ac varius sem pretium a. Integer nibh ipsum, suscipit et pharetra ut, varius id urna. Ut vitae nulla vel nibh eleifend suscipit.</p>
+                <button id="loc1btn">Reserve Now!</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-m-5 col-lg-5" id="loc1pic">
+                <img src="Content/italy-mountain-villa.jpeg" width="450" height="285" alt="Picture of location 1" />
+            </div>
+        </div>
+        <div class="row container" id="location2row">
+            <div class="col-xs-12 col-sm-12 col-m-5 col-lg-5" id="loc2pic">
+                <img src="Content/modern-villa.jpeg" width="450" height="285" alt="Picture of location 2" />
+            </div><div class="col-xs-12 col-sm-12 col-m-7 col-lg-7" id="location2">
+                <h3>Location #2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis erat eget justo cursus varius ac at arcu. Proin iaculis metus condimentum, tincidunt tellus vitae, tincidunt dui. Etiam eu dui massa. Pellentesque euismod lectus et ligula vestibulum viverra. Morbi ligula nunc, scelerisque quis ultrices ac, rhoncus id enim. Nam sed ex neque. In magna dui, rutrum non sapien vitae, bibendum blandit urna. Suspendisse pulvinar, felis quis vehicula eleifend, turpis nisl maximus quam, non tincidunt odio massa eu odio. Aenean rutrum nunc sem, ac varius sem pretium a. Integer nibh ipsum, suscipit et pharetra ut, varius id urna. Ut vitae nulla vel nibh eleifend suscipit.</p>
+                <button id="loc2btn">Check It Out!</button>
+            </div>
+        </div>
+        <div class="row container" id="location3row">
+            <div class="col-xs-12 col-sm-12 col-m-7 col-lg-7" id="location3">
+                <h3>Location #3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis erat eget justo cursus varius ac at arcu. Proin iaculis metus condimentum, tincidunt tellus vitae, tincidunt dui. Etiam eu dui massa. Pellentesque euismod lectus et ligula vestibulum viverra. Morbi ligula nunc, scelerisque quis ultrices ac, rhoncus id enim. Nam sed ex neque. In magna dui, rutrum non sapien vitae, bibendum blandit urna. Suspendisse pulvinar, felis quis vehicula eleifend, turpis nisl maximus quam, non tincidunt odio massa eu odio. Aenean rutrum nunc sem, ac varius sem pretium a. Integer nibh ipsum, suscipit et pharetra ut, varius id urna. Ut vitae nulla vel nibh eleifend suscipit.</p>
+                <button id="loc3btn">Join Us!</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-m-5 col-lg-5" id="loc3pic">
+                <img src="Content/tuscany-grape-field-nature-51947.jpeg" width="450" height="285" alt="Picture of location 3" />
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
