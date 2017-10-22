@@ -28,6 +28,9 @@
     text-align: center;
     padding: 0px;
 }
+#headername {
+    font-size:5em;
+}
 
 .sidePic {
     background-image: url('Versilia.jpg');
