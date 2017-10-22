@@ -8,6 +8,16 @@
 .navbar {
     margin: 0px;
     padding: 0px;
+    background-color: #48505C;
+    color: white;
+}
+
+#myNavbar li a {
+    color: white;
+}
+
+#logo {
+    color: white;
 }
 
 .compName {
@@ -137,11 +147,13 @@
 
 /*AMMENITIES*/
 
-#ammenities {
+#Ammenities {
     text-align: center;
     background-color: white;
     color: black;
 }
+
+/*ROW 1 STYLING*/
 
 #ammenrow1 {
     width: auto;
@@ -160,38 +172,193 @@
     background-image: url('3b-348x348.jpg');
     background-size: cover;
     color: white;
-    height: 350px;
+    height: 380px;
 }
 
-#centertext {
-    margin-top: 175px;
-    color: white;
-}
 
-span {
-    background: rgba(100,100,100,0.7);
-}
-
-#picbtn {
-    margin-top: 175px;
-    background-color: rgba(100,100,100,0.8);
-    font-size: 1.8em;
-    border: none;
-    padding: .6em;
-    color: white;
-    
-}
-#picbtn a:hover{
-    background:none;
-   
-}
 
 #occasion {
     height: 350px;
+    padding-top: 30px;
 }
 
 #relax {
     background-image: url('42-348x348.jpg');
     background-size: cover;
+    height: 380px;
+}
+
+/*ROW 2 STYLING*/
+
+#ammenrow2 {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#setapart {
     height: 350px;
+    margin-top: 30px;
+}
+
+#feelhome {
+    background-image: url('314-348x348.jpg');
+    background-size: cover;
+    height: 380px;
+}
+
+#staff {
+    height: 350px;
+    margin-top: 30px;
+}
+
+/*ROW 3 STYLING*/
+
+#ammenrow3 {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+#views {
+    background-image: url('Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    height: 380px;
+}
+
+#book {
+    height: 350px;
+    padding-top: 30px;
+}
+
+#dineing {
+    background-image: url('Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    height: 380px;
+}
+
+/*Grid text styling*/
+
+
+
+span {
+    background: rgba(100,100,100,0.7);
+}
+
+#pictxt {
+    display: inline-block;
+    margin-top: 25%;
+    background-color: rgba(100,100,100,0.8);
+    font-size: 1.8em;
+    border: none;
+    padding: 1em;
+    color: white;
+}
+
+#pictxtml {
+    display: inline-block;
+    margin-top: 25%;
+    background-color: rgba(100,100,100,0.8);
+    font-size: 1.8em;
+    border: none;
+    padding: 1em 1.5em;
+    color: white;
+}
+
+#nopicbtn {
+    background-color: #48505C;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/*Reviews*/
+
+#Reviews {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#reviewshead {
+    padding-bottom: 30px;
+}
+
+#reviewCarousel {
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: white;
+    height: 200px;
+    width: auto;
+    color: black;
+}
+
+#reviewtxt {
+    text-align: center;
+    font-style: italic;
+}
+
+#reviewer {
+    text-align: center;
+}
+
+#controll {
+    color: #A1A6AC
+}
+.carousel-indicators{
+    bottom:-50px;
+}
+.carousel-indicators li {
+    background-color: #48505C;
+}
+
+.carousel-indicators .active {
+    background-color: #48505C;
+}
+
+/*CONTACT*/
+#Contact {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#contacthead {
+    padding-bottom: 30px;
+}
+
+#contactform {
+    width: auto;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+.glyphicon {
+    background: none;
+}
+
+#contactinfoentry {
+    text-align: right;
+}
+
+#submitbtn {
+    margin-right: 16%;
+    background-color: #48505C;
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    height: 200px;
+}
+
+#uparrow {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
 }
